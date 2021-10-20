@@ -4,41 +4,47 @@
         "price": 9.99,
         "name": "Salmon grape and salad",
         "description": "How we dream about our future.",
-        "img": "./images/dinner/dinner1.png"
+        "img": "./images/dinner/dinner1.png",
+        "details": "You can enjoy this right away. Come to our resturent right now or call us we will delivery it to your doorstep"
     },
     {
         "key": "2",
         "price": 10.99,
         "name": "Lemony Salmon Piccata",
         "description": "How we dream about our future.",
-        "img": "./images/dinner/dinner2.png"
+        "img": "./images/dinner/dinner2.png",
+        "details": "You can enjoy this right away. Come to our resturent right now or call us we will delivery it to your doorstep"
     },
     {
         "key": "3",
         "price": 12.99,
         "name": "Tenderloin Quina Pilaf",
         "description": "How we dream about our future.",
-        "img": "./images/dinner/dinner1.png"
+        "img": "./images/dinner/dinner1.png",
+        "details": "You can enjoy this right away. Come to our resturent right now or call us we will delivery it to your doorstep"
     },
     {
         "key": "4",
         "price": 8.99,
         "name": "French fries With Cheese",
         "description": "How we dream about our future.",
-        "img": "./images/dinner/dinner4.png"
+        "img": "./images/dinner/dinner4.png",
+        "details": "You can enjoy this right away. Come to our resturent right now or call us we will delivery it to your doorstep"
     },
     {
         "key": "5",
         "price": 6.99,
         "name": "Garlic butter baked Salmon",
         "description": "How we dream about our future.",
-        "img": "./images/dinner/dinner5.png"
+        "img": "./images/dinner/dinner5.png",
+        "details": "You can enjoy this right away. Come to our resturent right now or call us we will delivery it to your doorstep"
     },
     {
         "key": "6",
         "price": 9.99,
         "name": "Baked Chicken",
         "description": "How we dream about our future.",
-        "img": "./images/dinner/dinner6.png"
+        "img": "./images/dinner/dinner6.png",
+        "details": "You can enjoy this right away. Come to our resturent right now or call us we will delivery it to your doorstep"
     }
 ]

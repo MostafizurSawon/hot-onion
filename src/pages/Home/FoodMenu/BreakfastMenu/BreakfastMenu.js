@@ -17,6 +17,7 @@ const LunchMenu = (props) => {
         <Card.Text>
          <b>$ {price}</b> 
         </Card.Text>
+        <button className="custom-sign">Details</button>
       </Card.Body>
     </Card>
     </Col>

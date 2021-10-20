@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import FoodMenu from './FoodMenu/FoodMenu';
-import { Button, FormControl, InputGroup} from 'react-bootstrap';
+import { Button, FormControl, InputGroup, Row} from 'react-bootstrap';
+import HomeService from './HomeService';
+import './Home.css';
 
 const Home = () => {
     const [showServices, setShowServices] = useState([]);
    useEffect(()=>{
-       fetch('./services')
+       fetch('https://raw.githubusercontent.com/MostafizurSawon/hot-onion/main/public/services.json')
        .then(res => res.json())
-       .then(data => console.log(data))
+       .then(data => setShowServices(data))
    },[])
     return (
         <>
@@ -26,10 +28,18 @@ const Home = () => {
                 </InputGroup>
                 </div>
                 </div>
-            </div>
+        </div>
         <FoodMenu></FoodMenu>
         
-            
+        <div className="container-fluid">
+            <h2 className="service-font">Why Chose us?</h2>
+            <h6 className="service-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Rem eveniet molestias vel dicta distinctio. </h6>
+        <Row xs={1} md={3} className="g-4 my-3">
+            {
+                showServices.map(service => <HomeService key={service.key} service={service}></HomeService>)
+            }
+        </Row>
+        </div>
         </>
     );
 };

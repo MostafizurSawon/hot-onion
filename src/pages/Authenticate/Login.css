@@ -1,3 +1,10 @@
 .custom-image{
     width: 70%;
 }
+
+.sign-background{
+    background-image: url(../../images/bannerbackground.png);
+    background-position: center;
+    background-size: contain;
+    margin-top: -50px;
+}

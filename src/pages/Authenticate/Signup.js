@@ -105,7 +105,7 @@ const googleProvider = new GoogleAuthProvider();
   }
 {/* <h3 className="text-primary">Please {isLogin ? 'Login' : 'Register'}</h3> */}
     return (
-        <div>
+        <div className="sign-background py-4">
         <form onSubmit={handleRegistration}>
         
         <div className="w-25 mx-auto">
@@ -150,10 +150,10 @@ const googleProvider = new GoogleAuthProvider();
         </form>
 
 
-        <br /><br /><br />
+        <br />
       <div>--------------------------------</div>
-      <br /><br /><br />
-      <button onClick={handleGoogleSignIn}>Google Sign In</button>
+      <br />
+      <button className="btn btn-success mb-2" onClick={handleGoogleSignIn}>Google Sign In</button>
         </div>
     );
 };
