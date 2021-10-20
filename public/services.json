@@ -1,0 +1,23 @@
+[
+    {
+        "key": "1",
+        "icon": "./images/icon/service1.png",
+        "name": "Fast Delivery",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat provident recusandae corrupti perferendis ea laudantium nam tempore et error ratione.",
+        "img": "./images/man1.png"
+    },
+    {
+        "key": "2",
+        "icon": "./images/icon/service2.png",
+        "name": "A Good auto Responder",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat provident recusandae corrupti perferendis ea laudantium nam tempore et error ratione.",
+        "img": "./images/man2.png"
+    },
+    {
+        "key": "3",
+        "icon": "./images/icon/service3.png",
+        "name": "Home Delivery",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat provident recusandae corrupti perferendis ea laudantium nam tempore et error ratione.",
+        "img": "./images/.png"
+    }
+]

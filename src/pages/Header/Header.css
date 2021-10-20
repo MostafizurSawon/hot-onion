@@ -1,0 +1,30 @@
+.custom-sign{
+    background-color: rgb(245, 53, 53);
+    color: white;
+    border: none;
+    padding: 5px 25px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.custom-login{
+    color: rgb(92, 88, 88);
+    font-weight: 500;
+}
+
+.header{
+    background-image: url(../../images/bannerbackground.png) ;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 440px;
+}
+
+.custom-input{
+    border-radius: 20px;
+}
+
+.custom-form{
+    width: 70%;
+}

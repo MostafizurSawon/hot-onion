@@ -1,0 +1,44 @@
+[
+    {
+        "key": "1",
+        "price": 6.99,
+        "name": "Bagel and Cream Cheese",
+        "description": "How we dream about our future.",
+        "img": "./images/breakfast/breakfast1.png"
+    },
+    {
+        "key": "2",
+        "price": 9.99,
+        "name": "Breakfast Sandwich",
+        "description": "How we dream about our future.",
+        "img": "./images/breakfast/breakfast2.png"
+    },
+    {
+        "key": "3",
+        "price": 10.99,
+        "name": "Baked Chicken",
+        "description": "How we dream about our future.",
+        "img": "./images/breakfast/breakfast3.png"
+    },
+    {
+        "key": "4",
+        "price": 8.99,
+        "name": "Eggs Benedict",
+        "description": "How we dream about our future.",
+        "img": "./images/breakfast/breakfast4.png"
+    },
+    {
+        "key": "5",
+        "price": 19.99,
+        "name": "Troast Croissant Fired Egg",
+        "description": "How we dream about our future.",
+        "img": "./images/breakfast/breakfast5.png"
+    },
+    {
+        "key": "6",
+        "price": 3.99,
+        "name": "Fried Egg Toast Brunch",
+        "description": "How we dream about our future.",
+        "img": "./images/breakfast/breakfast6.png"
+    }
+]
